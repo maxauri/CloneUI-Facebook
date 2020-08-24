@@ -20,7 +20,7 @@ const Home: React.FC<HomeProps> = ({ toggle, Theme }) => {
       <Header Theme={Theme} toggle={toggle} />
       <Content>
         <Menu />
-        <Feed />
+        <Feed Theme={Theme} />
         <AmigosOnline />
       </Content>
     </Container>

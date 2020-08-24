@@ -108,9 +108,11 @@ export const ItemImage = styled.img`
         width: 45px;
         height: 45px;
 
+        object-fit: cover;
+
         border-radius: calc(36px / 2);
     }
-`;
+`; 
 
 export const ItemLabel = styled.h4`
     color: ${props => props.theme.colors.label};
